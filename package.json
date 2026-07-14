@@ -1,20 +1,44 @@
 {
   "name": "personal-brand-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal Brand MCP for creators and operators. Positioning framework (WHO x OUTCOME x HOW x RECEIPT), bio auditing per platform, the 4-pillar content system, platform strategy roles, growth-signal interpretation.",
   "main": "dist/main.js",
   "type": "module",
-  "bin": { "personal-brand-mcp": "dist/main.js" },
+  "bin": {
+    "personal-brand-mcp": "dist/main.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "npx ts-node src/main.ts"
   },
-  "keywords": ["mcp", "mcp-server", "ai-agent", "personal-brand", "positioning", "creator-economy", "bio", "content-pillars", "audience"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "ai-agent",
+    "personal-brand",
+    "positioning",
+    "creator-economy",
+    "bio",
+    "content-pillars",
+    "audience"
+  ],
   "author": "Elisabeth Hitz",
   "license": "MIT",
-  "files": ["dist", "README.md"],
-  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" },
-  "devDependencies": { "@types/node": "^20.0.0", "typescript": "^5.3.0", "ts-node": "^10.9.0" },
-  "engines": { "node": ">=18.0.0" }
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "mcpName": "io.github.closermethod/personal-brand-mcp"
 }

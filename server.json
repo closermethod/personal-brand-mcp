@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.closermethod/personal-brand-mcp",
+  "description": "Positioning framework, per-platform bio auditing, 4-pillar content system, growth-signal reads.",
+  "repository": {
+    "url": "https://github.com/closermethod/personal-brand-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "personal-brand-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
